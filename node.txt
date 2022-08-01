@@ -1,0 +1,31 @@
+var                                const                                let
+1) We can redeclar it      1) We can not redeclar it             1) We can not redeclare it 
+2) We can again assign     2) Can not assign value again         2) We can again assign value to it.
+   vale to it. 
+  
+1) require => When we have to use modules then we use require fuction.
+2) globals : 
+    i) __dirname => returns the directory name
+    ii) __filename => returns the filename
+
+3) We can use setTimeout function like this way :
+    setTimeout(()=>{
+     console.log('in');
+    },1000);   
+
+4) We can use setInterval function like this way :
+    setInterval(()=>{
+     console.log('in');
+    },1000); 
+
+5) Template Literals : We can use the variables inside the tild sign with doller and in curly braces that variable
+   name like this way instead of concatiantion. 
+   let str = `this is ${name}`    
+
+6) Functions : We can write the function using arrow function.
+    var myfunction = ()=>{
+        return 4*5;
+    }
+    var op = myfunction();
+    console.log(op);
+7) async await = when we want to run our code synchronously
